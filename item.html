@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>东方文华农业科技有限公司</title>
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/jquery.raty.css">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+      <![endif]-->
+    </head>
+    <body>
+      <header class="navbar" id="top" role="banner">
+        <div class="container">
+          <div class="navbar-header pull-left">
+            <a href="./index.html" class="navbar-brand">东方文华农庄</a>
+          </div>
+          <!-- /navbar-header -->
+          <nav role="navigation">
+            <ul class="nav navbar-nav hidden-xs">
+              <li>
+                <a href="http://www.weibo.com" target="_blank"><img src="images/weibo.png" height="16" width="16" alt="新浪微博"></a>
+              </li>
+              <li>
+                <a href="#"><img src="images/weixin.png" height="16" width="16" alt="微信"></a>
+                <div class="sub"><img src="images/2D.jpg" alt="微信"></div>
+              </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right pull-right">
+              <li><a class="login" href="#">登录</a></li>
+              <li class="mr-one"><a href="#">注册</a></li>
+              <li class="mr-one"><a href="cart.html"><span class="glyphicon glyphicon-shopping-cart"></span> 购物车</a></li>
+              <li class="hidden-xs"><a href="#">联系我们</a></li>
+              <li class="hidden-xs"><a href="#">帮助中心</a></li>
+            </ul>
+          </nav>
+        </div>
+        <!-- /container -->
+      </header>
+      
+      <div id="fakeTop"></div>
+
+      <div class="container" id="main">
+        <div class="row header">
+          <div class="col-md-7 ptb-one clearfix" id="title">
+            <img class="pull-left" src="images/logo.png" height="50" alt="logo">
+            <h1 class="title pull-left">东方文华农庄</h1>
+            <!-- <div class="clearfix"></div> -->
+          </div>
+          <!-- /col-md-5 -->
+          <div class="search col-md-5 ptb-one mt-12 clearfix">
+            <div class="col-lg-10 pull-right">
+              <div class="input-group col-sm-10">
+                <input type="text" class="form-control" placeholder="输入商品名称">
+                <span class="input-group-btn">
+                  <button class="btn btn-success" type="button">搜索</button>
+                </span>
+              </div>
+              <!-- /input-group -->
+            </div>
+            <!-- /.col-lg-6 -->
+          </div>
+          <!-- /col-md-5 -->
+        </div>
+        <!-- /row title -->
+        <div class="row menu mt-one">
+         <ul class="nav nav-pills" role="tablist">
+          <li role="presentation"><a href="index.html">首页</a></li>
+          <li role="presentation"><a href="#">菜箱/食材</a></li>
+          <li role="presentation"><a href="#">健康礼品</a></li>
+          <li role="presentation"><a href="#">农庄酸奶</a></li>
+          <li role="presentation"><a href="#">走进农庄</a></li>
+          <li role="presentation"><a href="#">会员专区</a></li>
+        </ul>
+      </div>
+      <!-- /row menu -->
+      <div class="row content">
+        <div class="col-md-3 hidden-print hidden-xs hidden-sm
+        " id="page-left">
+        <ul class="nav col-lg-11" id="menu">
+          <li><a class="title" href="">农庄精品</a></li>
+          <li><a href="#">新鲜蔬菜</a>
+            <ul class="nav">
+              <li><a href="#">菜瓜类</a></li>
+              <li><a href="#">根茎类</a></li>
+              <li><a href="#">芽菜类</a></li>
+              <li><a href="#">茄椒类</a></li>
+            </ul>
+          </li>
+          <li><a href="#">农庄水果</a>
+            <ul class="nav">
+              <li><a href="#">河蟹</a></li>
+              <li><a href="#">水果</a></li>
+            </ul></li>
+            <li><a href="#">农庄蘑菇园</a>
+              <ul class="nav">
+                <li><a href="#">菜单测试1</a></li>
+                <li><a href="#">菜单测试2</a></li>
+                <li><a href="#">菜单测试5</a></li>
+              </ul></li>
+              <li><a href="#">农庄粮仓</a>
+                <ul class="nav">
+                  <li><a href="#">菜单测试1</a></li>
+                </ul></li>
+                <li><a href="#">休闲食品</a>
+                  <ul class="nav">
+                    <li><a href="#">菜单测试1</a></li>
+                    <li><a href="#">菜单测试2</a></li>
+                    <li><a href="#">菜单测试4</a></li>
+                    <li><a href="#">菜单测试5</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">油类调料</a>
+                  <ul class="nav">
+                    <li><a href="#">菜单测试1</a></li>
+                    <li><a href="#">菜单测试2</a></li>
+                    <li><a href="#">菜单测试3</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">农庄鱼塘</a>
+                  <ul class="nav">
+                    <li><a href="#">菜单测试1</a></li>
+                    <li><a href="#">菜单测试3</a></li>
+                    <li><a href="#">菜单测试4</a></li>
+                    <li><a href="#">菜单测试5</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">农庄肉铺</a>
+                  <ul class="nav">
+                    <li><a href="#">菜单测试1</a></li>
+                    <li><a href="#">菜单测试2</a></li>
+                    <li><a href="#">菜单测试3</a></li>
+                    <li><a href="#">菜单测试4</a></li>
+                    <li><a href="#">菜单测试5</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#fakeTop" title="返回页面顶部"><span class="glyphicon glyphicon-arrow-up"></span> 返回顶部</a>
+                </li>
+              </ul>
+            </div>
+            <!-- /#page-left -->
+            <div class="col-md-9" id="page-right">
+              <ol class="breadcrumb">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="#">农庄水果</a></li>
+                <li><a href="#">河蟹</a></li>
+                <li>崇明清水蟹尚选礼盒，5对装，雄4.5-5两，雌3.5两以上</li>
+              </ol>
+              <div class="clearfix gray-bottom pb-two">
+                <div class="col-xs-1 visible-xs"></div>
+                <div class="col-sm-5 col-xs-10">
+                  <div id="itemBooth">
+                    <img src="./itemPhoto/qingshuixieshangxuan_medium.jpg" alt="">
+                  </div>
+                  <div id="itemThumb" class="mt-one">
+                    <div class="col-xs-2">
+                      <a href="./itemPhoto/qingshuixieshangxuan_medium.jpg"><img src="./itemPhoto/qingshuixieshangxuan_small.jpg" alt=""></a>
+                    </div>
+                    <div class="col-xs-2">
+                      <a href="./itemPhoto/qingshuixiezhenxuan_medium.jpg"><img src="./itemPhoto/qingshuixiezhenxuan_small.jpg" alt=""></a>
+                    </div>
+                    <div class="col-xs-2">
+                      <a href="./itemPhoto/qingshuixiezhenpin_medium.jpg"><img src="./itemPhoto/qingshuixiezhenpin_small.jpg" alt=""></a>
+                    </div>
+                    <div class="col-xs-2">
+                      <a href="./itemPhoto/qingshuixiezhizun_medium.jpg"><img src="./itemPhoto/qingshuixiezhizun_small.jpg" alt=""></a>
+                    </div>
+                    <div class="col-xs-2">
+                      <a href="./itemPhoto/qingshuixiezhenxuan2_medium.jpg"><img src="./itemPhoto/qingshuixiezhenxuan2_small.jpg" alt=""></a>
+                    </div>
+                  </div>
+                </div>
+                <!-- /.col-sm-5.col-xs-10 -->
+
+                <div id="itemInfo" class="col-sm-7 col-xs-12">
+                  <div class="title">
+                    <h4><strong>崇明清水蟹尚选礼券，5对装，雄4.5-5两，雌3.5两以上</strong></h4>
+                  </div>
+                  <!-- /.title -->
+
+                  <div class="params">
+                    <dl>
+                      <dt>编号</dt>
+                      <dd>CARD-COUP-941</dd>
+                    </dl>
+                    <dl>
+                      <dt>热销价</dt>
+                      <dd class="price">           
+                        <span>¥</span>
+                        <strong>980.0</strong>
+                      </dd>
+                    </dl>
+                    <dl>
+                      <dt>规格</dt>
+                      <dd>雄5只，雌5只</dd>
+                    </dl>
+                    <dl>
+                      <dt>产地</dt>
+                      <dd>江苏徐州</dd>
+                    </dl>
+                  </div>
+                  <!-- /.params -->
+
+                  <div class="clearfix sell mt-one ptb-one dot-top">
+                    <div class="col-xs-6 sellCount">
+                      <p class="sell-count"><a data-tab="#_tabReviews" href="#_tabReviews">6969</a></p>
+                      <p class="sell-label">销量</p>
+                    </div>
+                    <div class="col-xs-6 reviewCount">
+                      <p class="sell-count">4742</p>
+                      <p class="sell-label">累计评价</p>
+                      <p class="review-rate">
+                        <span class="raty" data-score="4.9" readonly></span> 4.9
+                      </p>
+                    </div>
+                  </div>
+                  <!-- /.sell -->
+
+                  <div class="amount ptb-one dot-top">
+                    <dl>
+                      <dt>数量</dt>
+                      <dd class="clearfix">
+                        <div class="col-xs-2">
+                          <input type="number" class="form-control" maxlength="8" value="1">
+                        </div>
+                        <div class="col-xs-8 item-amount">
+                          库存：995件
+                        </div>
+                      </dd>
+                    </dl>
+                  </div>
+                  <!-- /.amount -->
+
+                  <div class="buy ptb-one dot-top">
+                    <div class="col-xs-11">
+                      <a class="pull-right btn btn-danger cart title" data-toggle="modal" data-target="#cartModal">
+                        <span class="glyphicon glyphicon-shopping-cart"></span> 加入购物车
+                      </a>
+                    </div>
+                  </div>
+                  <!-- /.buy -->
+                </div>
+                <!-- /itemInfo -->
+              </div>
+              <!-- /.clearfix -->
+
+              <div class="clearfix mt-one pb-two">
+                <div id="itemTabs" class="col-xs-12">
+                  <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active"><a href="#description" id="_tabDesc" role="tab" data-toggle="tab">商品详情</a></li>
+                    <li role="presentation"><a href="#reviews" id="_tabReviews" role="tab" data-toggle="tab">累计评价</a></li>
+                    <!-- <li role="presentation"><a href="#dealRecord"  role="tab" data-toggle="tab">成交记录</a></li> -->
+                  </ul>
+                </div>
+                <!-- Tab panes -->
+                <div class="tab-content col-xs-12">
+                  <div class="tab-pane active" id="description">
+                    <img src="./itemPhoto/product3183_desc.jpg" class="img-responsive">
+                  </div>
+                  <!-- /#description -->
+                  <div class="tab-pane" id="reviews">
+                    <div class="rate panel panel-default mt-one">
+                      <div class="panel-body">
+                        <h4 class='title'>累计评价: </h4>
+                        <strong>4.9</strong>
+                        <span class="raty" data-score="4.9" readonly></span>
+                      </div>
+                    </div>
+                    <div class="col-xs-12 rate-grid">
+                      <div class="col-xs-12">
+                        <div class="col-xs-12 col-sm-10 col-master">
+                          <div class="rate-content">
+                            老板送的吃蟹工具挺好用的 刚开始吃的时候还不知道用，浪费了不少 还是家里人提醒的。蟹挺不错的 有黄有膏没有让我失望 价格也实惠 给个好评
+                          </div>
+                          <div class="rate-date">
+                            今天
+                          </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-2 col-author">
+                          <div class="rate-user-info">
+                            视<span>***</span>c<span>（匿名）</span>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- /.col-xs-12 -->
+                      <div class="col-xs-12">
+                        <div class="col-xs-12 col-sm-10 col-master">
+                          <div class="rate-content">
+                            非常担心运输途中礼盒会有破损，因为主要还是拿来送人的，结果收到货后，没有让我失望，看着吐着泡泡的大闸蟹，感觉比在超市买的还好。很满意！
+                          </div>
+                          <div class="rate-date">
+                            09.18
+                          </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-2 col-author">
+                          <div class="rate-user-info">
+                            l<span>***</span>r<span>（匿名）</span>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- /.col-xs-12 -->
+                      <div class="col-xs-12">
+                        <div class="col-xs-12 col-sm-10 col-master">
+                          <div class="rate-content">
+                            买的东西刚收到，太快了点吧，冰都还没有化。而且东西非常新鲜，很满意，还没有在网上买过鲜货，总是当心会买的死蟹，看来我错了。等下次再来。送赞！
+                          </div>
+                          <div class="rate-date">
+                            09.18
+                          </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-2 col-author">
+                          <div class="rate-user-info">
+                            晴<span>***</span>冬<span>（匿名）</span>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- /.col-xs-12 -->
+                      <div class="col-xs-12">
+                        <div class="col-xs-12 col-sm-10 col-master">
+                          <div class="rate-content">
+                            口感超好 吃了还要吃
+                          </div>
+                          <div class="rate-date">
+                            09.18
+                          </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-2 col-author">
+                          <div class="rate-user-info">
+                            腰<span>***</span>谡<span>（匿名）</span>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- /.col-xs-12 -->
+                      <div class="col-xs-12">
+                        <div class="col-xs-12 col-sm-10 col-master">
+                          <div class="rate-content">
+                            非常的满意, 个个都活蹦乱跳的 还差点被夹到.当天就烧了 果然没让我失望 给个5分好评!
+                          </div>
+                          <div class="rate-date">
+                            09.18
+                          </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-2 col-author">
+                          <div class="rate-user-info">
+                            q<span>***</span>1<span>（匿名）</span>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- /.col-xs-12 -->
+                      <div class="col-xs-12">
+                        <div class="col-xs-12 col-sm-10 col-master">
+                          <div class="rate-content">
+                            不错 很好吃
+                          </div>
+                          <div class="rate-date">
+                            09.16
+                          </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-2 col-author">
+                          <div class="rate-user-info">
+                            j<span>***</span>5<span>（匿名）</span>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- /.col-xs-12 -->
+                      <div class="col-xs-12">
+                        <div class="col-xs-12 col-sm-10 col-master">
+                          <div class="rate-content">
+                            包装不错，还有钳子送。打开后蟹非常生猛，杀掉后还被夹了一下 肉感很不错，很鲜美～物流很给力哦！那么快就到了！
+                          </div>
+                          <div class="rate-date">
+                            09.12
+                          </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-2 col-author">
+                          <div class="rate-user-info">
+                            t<span>***</span>c<span>（匿名）</span>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- /.col-xs-12 -->
+                      <div class="col-xs-12">
+                        <div class="col-xs-12 col-sm-10 col-master">
+                          <div class="rate-content">
+                            特别在消灭完了以后才来评论的。好好吃啊。我爸那么挑剔的人都说好吃。
+                          </div>
+                          <div class="rate-date">
+                            09.11
+                          </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-2 col-author">
+                          <div class="rate-user-info">
+                            链<span>***</span>包<span>（匿名）</span>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- /.col-xs-12 -->
+                      <div class="col-xs-12">
+                        <div class="col-xs-12 col-sm-10 col-master">
+                          <div class="rate-content">
+                            真的很不错，个头大而且很新鲜，真心赞啊，家人很喜欢
+                          </div>
+                          <div class="rate-date">
+                            09.10
+                          </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-2 col-author">
+                          <div class="rate-user-info">
+                            熊<span>***</span>9<span>（匿名）</span>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- /.col-xs-12 -->
+                      <div class="col-xs-12">
+                        <div class="col-xs-12 col-sm-10 col-master">
+                          <div class="rate-content">
+                            不错，卖家很给力还有小礼物，快递也很速度，螃蟹肉多多。萌萌哒
+                          </div>
+                          <div class="rate-date">
+                            09.10
+                          </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-2 col-author">
+                          <div class="rate-user-info">
+                            我<span>***</span>4<span>（匿名）</span>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- /.col-xs-12 -->
+                      <div class="col-xs-12">
+                        <div class="col-xs-12 col-sm-10 col-master">
+                          <div class="rate-content">
+                            收到东西了 非常的满意 个个都活蹦乱跳的 还差点被夹到.当天就烧了 果然没让我失望 给个5分好评 谢谢老板送的吃蟹工具
+                          </div>
+                          <div class="rate-date">
+                            09.09
+                          </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-2 col-author">
+                          <div class="rate-user-info">
+                            强<span>***</span>宝<span>（匿名）</span>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- /.col-xs-12 -->
+                      <div class="col-xs-12">
+                        <div class="col-xs-12 col-sm-10 col-master">
+                          <div class="rate-content">
+                            哈哈 不好意思 评晚了 蟹子已经吃了 还是不错的，味道很鲜，谢谢店家了
+                          </div>
+                          <div class="rate-date">
+                            09.03
+                          </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-2 col-author">
+                          <div class="rate-user-info">
+                            且<span>***</span>u<span>（匿名）</span>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- /.col-xs-12 -->
+                    </div>
+                    <!-- /.col-xs-12 .rate-grid -->
+                    <div class="col-xs-12">
+                      <ul class="pagination pull-right">
+                        <li><a href="#">&laquo;</a></li>
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li><a href="#">&raquo;</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- /#reviews -->
+                  <!-- <div class="tab-pane" id="dealRecord">
+                    dealRecord
+                  </div>
+                  /#dealRecord -->
+                </div>
+                <!-- /tab-content -->
+              </div>
+              <!-- /.clearfix -->
+            </div>
+            <!-- /#page-right -->
+
+          </div>
+          <!-- /.row .content -->
+        </div>
+        <!-- /.container main -->
+
+        <footer>
+          <div class="container">
+
+            <div class="row mt-two">
+              <div class="col-md-1 visible-md-block visible-lg-block"></div>
+              <dl class="col-md-2 col-xs-4">
+                <dt>食品安全</dt>
+                <dd><a href="/help/help_buyguide.html">有机食品选购指南</a></dd>
+                <dd><a href="/help/help_whyvegorg.html">为何选择有机蔬菜</a></dd>
+              </dl>
+              <dl class="col-md-2 col-xs-4">
+                <dt>新手指南</dt>
+                <dd><a href="/help/help_register.html">账户注册</a></dd>
+                <dd><a href="/help/help_process.html">购物流程</a></dd>
+                <dd><a href="/help/help_manual.html">会员手册</a></dd>
+              </dl>
+              <dl class="col-md-2 col-xs-4">
+                <dt>支付方式</dt>
+                <dd><a href="/help/help_onlinepay.html">在线支付</a></dd>
+                <dd><a href="/help/help_delivery.html">货到付款</a></dd>
+                <dd><a href="/help/help_invoice.html">发票制度</a></dd>
+                <dd><a href="/help/help_discount.html">抵用券使用规则</a></dd>
+              </dl>
+              <dl class="col-md-2 col-xs-4">
+                <dt>配送说明</dt>
+                <dd><a href="/help/help_coldchain.html">冷链配送</a></dd>
+                <dd><a href="/help/help_door.html">上门自提</a></dd>
+                <dd><a href="/help/help_scopecost.html">配送范围与费用</a></dd>
+              </dl>
+              <dl class="col-md-2 col-xs-4">
+                <dt>帮助中心</dt>
+                <dd><a href="/help/help_instruction.html">退换货说明</a></dd>
+                <dd><a href="/help/getpass.html">找回密码</a></dd>
+                <dd><a href="/help/help_problems.html">常见问题</a></dd>
+                <dd><a href="/help/help_contactus.html">联系我们</a></dd>
+              </dl>
+            </div>
+            <!-- /row -->
+          </div>
+          <!-- /container -->
+          <div class="page-bottom clearfix">
+            <div class="col-sm-2">
+            </div>
+            <div class="copyright col-sm-8">
+              <img class="pull-left" src="images/title.png" height="59" width="40" alt="title">
+              <p>徐州东方文华农业科技有限公司 ©版权所有2014</p>
+              <p>ICP备案证书号: **ICP备********号</p>
+            </div>
+            <div class="col-sm-2"></div>
+          </div>
+          <!-- /row -->
+          
+
+
+          <div class="modal fade" id="cartModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                  <h4 class="modal-title" id="myModalLabel">购物车</h4>
+                </div>
+                <!-- /.modal-header -->
+                <div class="modal-body">
+                 <div class="row">
+                  <div class="col-xs-2">
+                    <span class="pull-right glyphicon glyphicon-ok"></span>
+                  </div>
+                  <div class="col-xs-10">
+                    <h4 class="title">添加成功</h4>
+                    <p>购物车共有2件商品</p>
+                  </div>
+                </div>                
+              </div>
+              <!-- /.modal-body -->
+              <div class="modal-footer">
+                <button type="button" class="btn btn-success">去购物车结算</button>
+                <button type="button" class="btn btn-normal">继续购物</button>
+              </div>
+              <!-- /.modal-footer -->
+            </div>
+            <!-- /.modal-content -->
+          </div>
+          <!-- /.modal-dialog -->
+        </div>
+        <!-- /.modal -->
+      </footer>
+
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="js/jquery-1.10.2.min.js"></script>
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/jquery.raty.js"></script>
+      <script src="js/dfwh.js"></script>
+
+
+      <script>
+      window.$ && $(function() {
+        $('#itemTabs').affix({
+          offset: {
+            top: $('#itemTabs').closest('div').offset().top + 24 - $('#top').outerHeight(true),
+            bottom: function() {
+              return (this.bottom = $('footer').outerHeight(true));
+            }
+          }
+        });
+        $('[data-tab]').click(function(event) {
+          /* Act on the event */
+          $($(this).attr('data-tab')).trigger('click');
+        });
+        /*raty*/
+        $('.raty').raty({
+          score: function() {
+            return $(this).attr('data-score');
+          },
+          readOnly: function() {
+            return $(this).attr('readonly') === 'readonly';
+          },
+          half: true,
+          starOff: './images/star-off.png',
+          starOn: './images/star-on.png',
+          starHalf: './images/star-half.png'
+        });
+
+        /*初始化时绑定当前缩略图*/
+        $('#itemThumb a[href="' + $('#itemBooth img').attr('src') + '"]').addClass('hover');
+        /*缩略图相关功能*/
+        $('#itemThumb a').bind('mouseover click', function(event) {
+          /* Act on the event */
+          event.preventDefault();
+          $('#itemThumb a.hover').removeClass('hover');
+          $('#itemBooth img').attr('src', $(this).attr('href'));
+          $(this).addClass('hover');
+        });
+      });
+</script>
+</body>
+</html>

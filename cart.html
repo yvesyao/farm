@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>东方文华农庄 - 购物车</title>
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+      <![endif]-->
+    </head>
+    <body>
+      <header class="navbar" id="top" role="banner">
+        <div class="container">
+          <div class="navbar-header pull-left">
+            <a href="./index.html" class="navbar-brand">东方文华农庄</a>
+          </div>
+          <!-- /navbar-header -->
+          <nav role="navigation">
+            <ul class="nav navbar-nav hidden-xs">
+              <li>
+                <a href="http://www.weibo.com" target="_blank"><img src="images/weibo.png" height="16" width="16" alt="新浪微博"></a>
+              </li>
+              <li>
+                <a href="#"><img src="images/weixin.png" height="16" width="16" alt="微信"></a>
+                <div class="sub"><img src="images/2D.jpg" alt="微信"></div>
+              </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right pull-right">
+              <li><a class="login" href="#">登录</a></li>
+              <li class="mr-one"><a href="#">注册</a></li>
+              <li class="mr-one"><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> 购物车</a></li>
+              <li class="hidden-xs"><a href="#">联系我们</a></li>
+              <li class="hidden-xs"><a href="#">帮助中心</a></li>
+            </ul>
+          </nav>
+        </div>
+        <!-- /container -->
+      </header>
+
+      <div id="fakeTop"></div>
+
+      <div class="container" id="main">
+        <div class="row header">
+          <div class="col-md-7 ptb-one clearfix" id="title">
+            <img class="pull-left" src="images/logo.png" height="50" alt="logo">
+            <h1 class="title pull-left">东方文华农庄</h1>
+            <!-- <div class="clearfix"></div> -->
+          </div>
+          <!-- /col-md-5 -->
+          <div class="search col-md-5 ptb-one mt-12 clearfix">
+            <div class="col-lg-10 pull-right">
+              <div class="input-group col-sm-10">
+                <input type="text" class="form-control" placeholder="输入商品名称">
+                <span class="input-group-btn">
+                  <button class="btn btn-success" type="button">搜索</button>
+                </span>
+              </div>
+              <!-- /input-group -->
+            </div>
+            <!-- /.col-lg-6 -->
+          </div>
+          <!-- /col-md-5 -->
+        </div>
+        <!-- /row title -->
+        <div class="row menu mt-one">
+         <ul class="nav nav-pills" role="tablist">
+          <li role="presentation"><a href="index.html">首页</a></li>
+          <li role="presentation"><a href="#">菜箱/食材</a></li>
+          <li role="presentation"><a href="#">健康礼品</a></li>
+          <li role="presentation"><a href="#">农庄酸奶</a></li>
+          <li role="presentation"><a href="#">走进农庄</a></li>
+          <li role="presentation"><a href="#">会员专区</a></li>
+        </ul>
+      </div>
+      <!-- /row menu -->
+      <div class="row content">
+        <div class="col-xs-12">
+          <div id="cart" class="mt-one clearfix">
+            <div class="thead">
+              <div class="item clearfix">
+                <span class="col-sm-5">商品信息</span>
+                <span class="col-sm-2 text-right">单价（元）</span>
+                <span class="col-sm-2">数量</span>
+                <span class="col-sm-2 text-right hidden-xs">金额</span>
+                <span class="col-sm-1 hidden-xs">操作</span>
+              </div>
+            </div>
+            <div class="tbody">
+              <div class="item clearfix">
+                <div class="col-sm-5 info">
+                  <div class="p-img">
+                    <a href="./item.html">
+                      <img src="./itemPhoto/item.jpg" class="itempic J_ItemImg">
+                    </a>
+                  </div>
+                  <div class="p-name">
+                    <a href="./item.html">菲律宾东星斑 高蛋白 低脂肪 低胆固醇 延缓大脑老化</a>
+                  </div>
+                </div>
+                <div class="col-sm-2 p-price">
+                  <span>¥240.0</span>
+                </div>
+                <div class="col-sm-2 p-num">
+                  <input type="number" class="form-control" maxlength="8" value="1">
+                </div>
+                <div class="col-sm-2 hidden-xs p-sum price  text-right">
+                  <span>¥</span>
+                  <strong>240.0</strong>
+                </div>
+                <div class="col-sm-1 hidden-xs p-action">
+                  <a href="#">删除</a>
+                </div>
+              </div>
+              <!-- /.item -->
+
+              <div class="item clearfix">
+                <div class="col-sm-5 info">
+                  <div class="p-img">
+                    <a href="./item.html">
+                      <img src="./itemPhoto/item (12).jpg" class="itempic J_ItemImg">
+                    </a>
+                  </div>
+                  <div class="p-name">
+                    <a href="./item.html">崇明清水蟹至尊礼盒，5对装，雄5.5两以上，雌4.5两以上，限量</a>
+                  </div>
+                </div>
+                <div class="col-sm-2 p-price">
+                  <span>¥1880.0</span>
+                </div>
+                <div class="col-sm-2 p-num">
+                  <input type="number" class="form-control" maxlength="8" value="1">
+                </div>
+                <div class="col-sm-2 hidden-xs p-sum price  text-right">
+                  <span>¥</span>
+                  <strong>1880.0</strong>
+                </div>
+                <div class="col-sm-1 hidden-xs p-action">
+                  <a href="#">删除</a>
+                </div>
+              </div>
+              <!-- /.item -->
+
+              <div class="item clearfix">
+                <div class="col-sm-5 info">
+                  <div class="p-img">
+                    <a href="./item.html">
+                      <img src="./itemPhoto/item (1).jpg" class="itempic J_ItemImg">
+                    </a>
+                  </div>
+                  <div class="p-name">
+                    <a href="./item.html">松江特产水晶梨，皮薄肉细，汁甜味美</a>
+                  </div>
+                </div>
+                <div class="col-sm-2 p-price">
+                  <span>¥40.0</span>
+                </div>
+                <div class="col-sm-2 p-num">
+                  <input type="number" class="form-control" maxlength="8" value="1">
+                </div>
+                <div class="col-sm-2 hidden-xs p-sum price  text-right">
+                  <span>¥</span>
+                  <strong>40.0</strong>
+                </div>
+                <div class="col-sm-1 hidden-xs p-action">
+                  <a href="#">删除</a>
+                </div>
+              </div>
+              <!-- /.item -->
+
+              <div class="item clearfix">
+                <div class="col-sm-5 info">
+                  <div class="p-img">
+                    <a href="./item.html">
+                      <img src="./itemPhoto/item (2).jpg" class="itempic J_ItemImg">
+                    </a>
+                  </div>
+                  <div class="p-name">
+                    <a href="./item.html">大兴安岭野生臻蘑丁150g 肉质松软 滑嫩爽口</a>
+                  </div>
+                </div>
+                <div class="col-sm-2 p-price">
+                  <span>¥70.0</span>
+                </div>
+                <div class="col-sm-2 p-num">
+                  <input type="number" class="form-control" maxlength="8" value="1">
+                </div>
+                <div class="col-sm-2 hidden-xs p-sum price  text-right">
+                  <span>¥</span>
+                  <strong>70.0</strong>
+                </div>
+                <div class="col-sm-1 hidden-xs p-action">
+                  <a href="#">删除</a>
+                </div>
+              </div>
+
+              <!-- /.item -->
+              <div class="item clearfix">
+                <div class="col-sm-5 info">
+                  <div class="p-img">
+                    <a href="./item.html">
+                      <img src="./itemPhoto/item (3).jpg" class="itempic J_ItemImg">
+                    </a>
+                  </div>
+                  <div class="p-name">
+                    <a href="./item.html">有机褐菇 有机种植，香浓鲜美，高蛋白低脂肪</a>
+                  </div>
+                </div>
+                <div class="col-sm-2 p-price">
+                  <span>¥38.0</span>
+                </div>
+                <div class="col-sm-2 p-num">
+                  <input type="number" class="form-control" maxlength="8" value="1">
+                </div>
+                <div class="col-sm-2 hidden-xs p-sum price  text-right">
+                  <span>¥</span>
+                  <strong>38.0</strong>
+                </div>
+                <div class="col-sm-1 hidden-xs p-action">
+                  <a href="#">删除</a>
+                </div>
+              </div>
+              <!-- /.item -->
+              
+            </div>
+            <!-- /.tbody -->
+            <div class="cart-total">
+              <div class="pull-right">
+                  <a class="btn btn-lg btn-danger" href="#">
+                  去结算 <b class="glyphicon glyphicon-chevron-right"></b>
+                  </a>
+              </div>
+              <div class="total pull-right">
+                  总计（不含运费）：
+                  <strong class="price" id="finalPrice" data-bind="1753.00">¥1753.00</strong>
+              </div>
+          </div>
+
+          </div>
+          <!-- /#cart -->
+        </div>
+      </div>
+      <!-- /row content -->
+    </div>
+    <!-- /container main -->
+
+    <footer>
+      <div class="container">
+
+        <div class="row mt-two">
+          <div class="col-md-1 visible-md-block visible-lg-block"></div>
+          <dl class="col-md-2 col-xs-4">
+            <dt>食品安全</dt>
+            <dd><a href="/help/help_buyguide.html">有机食品选购指南</a></dd>
+            <dd><a href="/help/help_whyvegorg.html">为何选择有机蔬菜</a></dd>
+          </dl>
+          <dl class="col-md-2 col-xs-4">
+            <dt>新手指南</dt>
+            <dd><a href="/help/help_register.html">账户注册</a></dd>
+            <dd><a href="/help/help_process.html">购物流程</a></dd>
+            <dd><a href="/help/help_manual.html">会员手册</a></dd>
+          </dl>
+          <dl class="col-md-2 col-xs-4">
+            <dt>支付方式</dt>
+            <dd><a href="/help/help_onlinepay.html">在线支付</a></dd>
+            <dd><a href="/help/help_delivery.html">货到付款</a></dd>
+            <dd><a href="/help/help_invoice.html">发票制度</a></dd>
+            <dd><a href="/help/help_discount.html">抵用券使用规则</a></dd>
+          </dl>
+          <dl class="col-md-2 col-xs-4">
+            <dt>配送说明</dt>
+            <dd><a href="/help/help_coldchain.html">冷链配送</a></dd>
+            <dd><a href="/help/help_door.html">上门自提</a></dd>
+            <dd><a href="/help/help_scopecost.html">配送范围与费用</a></dd>
+          </dl>
+          <dl class="col-md-2 col-xs-4">
+            <dt>帮助中心</dt>
+            <dd><a href="/help/help_instruction.html">退换货说明</a></dd>
+            <dd><a href="/help/getpass.html">找回密码</a></dd>
+            <dd><a href="/help/help_problems.html">常见问题</a></dd>
+            <dd><a href="/help/help_contactus.html">联系我们</a></dd>
+          </dl>
+        </div>
+        <!-- /row -->
+      </div>
+      <!-- /container -->
+      <div class="page-bottom clearfix">
+        <div class="col-sm-2">
+        </div>
+        <div class="copyright col-sm-8">
+          <img class="pull-left" src="images/title.png" height="59" width="40" alt="title">
+          <p>徐州东方文华农业科技有限公司 ©版权所有2014</p>
+          <p>ICP备案证书号: **ICP备********号</p>
+        </div>
+        <div class="col-sm-2"></div>
+      </div>
+      <!-- /row -->
+
+    </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/dfwh.js"></script>
+
+    <script>
+      window.$ && $(function(){
+        $('.p-num input').change(function(event) {
+          /* Act on the event */
+          var _num = $(this).val();
+          if (_num == '' || _num <= 0) {
+            $(this).val(_num = 1);
+          };
+          
+          var _parent = $(this).parent('.p-num');
+          var _price = _parent.prev('.p-price').children('span').text().substr(1);
+          _parent.next('.p-sum').children('strong').text(_num * _price);
+          getTotalPrice();
+        });
+
+
+        getTotalPrice();
+      });
+
+      function getTotalPrice(){
+        var _total = 0;
+        $.map($('.p-sum strong'), function(item, index) {
+          _total += parseInt($(item).text());
+        });
+        $('#finalPrice').text('¥'+_total);
+      }
+    </script>
+
+  </body>
+  </html>
